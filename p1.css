@@ -50,7 +50,7 @@ h2 {
     content: "";
     position: absolute;
     top: 25%;
-    right: 229px; /* Positioning handle outside the cup */
+    right: 229px; 
    
     width: 40px;
     height: 170px;
