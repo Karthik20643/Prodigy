@@ -40,7 +40,7 @@ const starttimer = () =>{
             appendseconds.innerText = "0" + seconds ;
         }  
         else{
-            appendseconds.innerText = seconds ;
+            appendseconds.innerText = seconds ; 
         }            
         if(minutes < 10) {
             appendminutes.innerText = "0" + minutes ;
