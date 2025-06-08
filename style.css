@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.totaldiv{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #0E79B2 ;
+    height: fit-content;
+    width: 100vh;
+    margin-left: 40vh;
+    padding: 10vh;
+    border-radius: 20px;
+    min-height: 50vh;
+    margin-top: 5rem;
+
+}
+.time{
+        font-size: 4rem;
+
+}
+.start{
+    size: 3rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: green;
+}
+.stop{
+    size: 3rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: red;
+}
+.reset{
+    size: 3rem;
+    font-size: 1.4rem;
+   border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgb(32, 32, 7);
+    color: aliceblue;
+}
+.time{
+    background-color: beige;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.reset:hover {
+    cursor: pointer;
+    background-color: rgb(223, 203, 203);
+    opacity: 99% ;
+    color: black;
+}
+.start:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    opacity: 99% ;
+    color: black;
+}
+
+.stop:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    opacity: 99% ;
+    color: black;
+}
+#heading{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color: silver;
+   
+
+}
